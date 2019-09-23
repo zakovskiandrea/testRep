@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font: Bold 18px/35px Europa;
+}
+#container-2 {
+  height: 100%;
+  background: #344856;
+}
+
+#header-2 {
+  height: 11.4%;
+  display: flex;
+  color: white;
+}
+
+#main {
+  height: 66.3%;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-2 {
+  height: 22.3%;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: flex-end;
+}
+#back-btn {
+  width: 13px;
+  height: 13px;
+  margin: 8.5% 0 0 8.5%;
+}
+
+#main-text {
+  text-align: center;
+  font: Bold 30px/35px Europa;
+  letter-spacing: 0;
+  color: white;
+  flex: 0.5;
+}
+
+.schedule-activity-button-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  background: #c8d1d3 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 15px #1b1c201a;
+  height: 50px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 2.1px;
+  color: white;
+  margin: 0 30px 15px;
+  font-weight: lighter;
+}
+.activity-btn {
+  height: 60px;
+  width: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#activities {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.activity-icon-2 {
+  height: 35px;
+  width: 35px;
+}
+
+.activity {
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-name-2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+}
+
+.selector {
+  flex: 1;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selector-text {
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+.selector-wrapper {
+  flex: 0.55;
+  display: flex;
+  flex-direction: row;
+}
+
+.select {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 6px 0px 0px 6px;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 15px;
+
+  padding-left: 20px;
+  color: #6e8ca0;
+}
+
+.selector-icon-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.19;
+  background: #d97d54;
+  border-radius: 0px 5px 5px 0px;
+}

@@ -1,0 +1,92 @@
+.selected {
+  background: #d97d54;
+}
+
+.activated {
+  background: #344856;
+  border: solid 1px #87bcbf;
+}
+
+.empty-slot {
+  height: 58px;
+  width: 58px;
+  background: #f0f3f4;
+  border: dashed 1px #c8d1d3;
+  border-radius: 50px;
+}
+
+div.scrollmenu {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+div.scroll-item {
+  display: inline-block;
+
+  color: white;
+  margin-right: 15px;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+#footer-3 {
+  height: 22.3%;
+  padding: 0;
+}
+
+#scheduled-activities-heading-2 {
+  color: black;
+  padding-left: 20px;
+}
+
+.month-and-date,
+.day-of-week {
+  padding-left: 15px;
+}
+
+.month-and-date {
+  color: #6e8ca0;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  height: 20px;
+}
+
+.schedule-activity-button-3 {
+  margin: 15px 50px 30px;
+}
+
+#datepicker {
+  border: 0;
+}
+
+::placeholder {
+  color: #6e8ca0;
+}
+
+.filled-slot {
+  height: 58px;
+  width: 58px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0px 10px 30px #42596529;
+}
+
+.filled-img {
+  padding: 16px;
+}
+
+.starting-time {
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 0;
+  color: #8d8c8c;
+  padding-right: 15px;
+
+  margin-top: -15px;
+}

@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font: Bold 18px/35px Europa;
+}
+#container {
+  height: 100%;
+}
+#header {
+  height: 11.4%;
+  display: flex;
+  justify-content: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #1b1c201a;
+}
+#main {
+  height: 66.3%;
+  display: flex;
+  flex-direction: column;
+}
+#footer {
+  height: 22.3%;
+  padding: 0 20px 0 20px;
+}
+
+#heading {
+  text-align: center;
+
+  letter-spacing: 0;
+  color: #1b1c20;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 0px 10.5% 30px 10.5%;
+}
+.box {
+  width: 136px;
+}
+.box-surfing,
+.box-hiking,
+.box-weights,
+.box-spinning {
+  box-shadow: 0px 10px 15px #1b1c201a;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.box-surfing {
+  background: url("/pics/activity background/surfing.png") 0% 0% no-repeat;
+}
+.box-hiking {
+  background: url("/pics/activity background/hiking.png") 0% 0% no-repeat;
+}
+.box-weights {
+  background: url("/pics/activity background/weights.png") 0% 0% no-repeat;
+}
+.box-spinning {
+  background: url("/pics/activity background/spinning.png") 0% 0% no-repeat;
+}
+
+.box-hiking,
+.box-spinning {
+  margin-left: auto;
+}
+
+.white-circle {
+  background: url("/pics/icn_surfing.png");
+  height: 100%;
+  background-position-y: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-icon {
+  padding-top: 93px;
+  width: 28px;
+  height: 28px;
+}
+
+.activity-name {
+  padding-top: 5px;
+  text-align: center;
+
+  letter-spacing: 0;
+  color: #334856;
+}
+
+.activity-subname {
+  text-align: center;
+  font: 10px/12px Rift Soft;
+  letter-spacing: 1.5px;
+  color: #7d8184;
+  opacity: 1;
+}
+
+#scheduled-activities-heading {
+  color: #1b1c20;
+}
+#no-activities-text {
+  color: #6e8ca0;
+
+  font-size: 14px;
+}
+
+.schedule-activity-button {
+  display: flex;
+  flex-direction: row;
+  background: #d97d54 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 15px #1b1c201a;
+  height: 50px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+
+  margin: 15px 30px 0px;
+}
+
+#romboid-background {
+  background: url("/pics/icn_plus.svg") no-repeat;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+#button-text {
+  text-align: center;
+  letter-spacing: 2.1px;
+
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: lighter;
+}
