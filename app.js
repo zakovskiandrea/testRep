@@ -128,8 +128,8 @@ function clickOnScheduledBtn() {
 // Function for Setting the Date Picker
 $(function() {
   $("#datepicker").datepicker({
-    // minDate: 1,
-    // maxDate: "+1w"
+    minDate: 1,
+    maxDate: "+1w"
   });
 });
 // Function for click on X Button
